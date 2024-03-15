@@ -1,0 +1,65 @@
+nav ul{
+    margin-left: auto !important;
+
+}
+
+.nav-item{
+    text-transform: uppercase;
+}
+
+main .carousel-inner img{
+    max-height: 65vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+
+}
+
+section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.card .card-img-top{
+    max-height: 250px;
+    object-fit: cover;
+    height: 250;
+}
+
+.card{
+
+    margin-bottom: 15px;
+
+}
+
+
+footer, a{
+    background-color: #14578B;
+     color: white;
+     font-weight: bold;
+     font-size: 14px;
+     text-decoration: none;
+     
+}
+
+.enviar{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    font-size: 18px;
+    color: rgb(29, 27, 27);
+    border-radius: 5px;
+    background-color: rgb(0, 204, 255);
+    border: none;
+    transition: 1s background;
+    transition: 2s transform;
+}
+
+.enviar:hover{
+    background-color: rgb(216, 27, 241);
+    color: aliceblue;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
